@@ -1,6 +1,7 @@
 html, body, h1, h2, h3, h4 {
 	margin: 0;
 	padding: 0;
+	color: #663300;
 }
 
 .clear {
@@ -15,15 +16,13 @@ body {
 	padding: 20px 0 0 0;
 }
 
-/** layout **/
 #wrapper {
 	text-align: left;
 	margin: auto;
 	width: 678px;
-  position: relative;
+  	position: relative;
 }
 
-/** header **/
 #header {
   padding-top: 1px;
 }
@@ -102,4 +101,7 @@ body {
   text-align: center;
   color: #CFB472;
   padding: 14px;
+}
+#wrapper .right-col ul li {
+	color: #990000;
 }
