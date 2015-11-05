@@ -1,0 +1,46 @@
+div.calendar{
+	width: 300px;
+	height: 280px;
+	background-color: #fc6f53;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.calendar .header{
+	width: 100%;
+	height: 100px;
+}
+
+div.calendar .header button{
+	background-color: transparent;
+	border: none;
+	height: 100px;
+	width: 54px;
+	color: #fff;
+	font-size: 40px;
+	display: block;
+	float: left;
+}
+
+div.calendar .header .date-number {
+	display: block;
+	width: 58px;
+	float: left;
+	height: 100px;
+	box-sizing: border-box;
+	font-size:50px;
+	font-weight: 300;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+
+div.calendar .header .date-text{
+	display: block;
+	width: 134px;
+	float: left;
+	height: 100px;
+	box-sizing: border-box;
+	font-size: 10px;
+	padding-top: 29px;
+	padding-left: 5px;
+}
