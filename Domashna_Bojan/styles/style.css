@@ -1306,14 +1306,19 @@ div.flat .main i{
 /*	margin-bottom: 25px;*/
 	padding-top: 30px;
 	/*position: relative;*/
+		display: block;
+	float: left;
+
 } 
 
 div.flat .main .img {
 	width: 80px;
 	height: 100px;
 	/*padding-left: 32px;*/
-	display: inline-block;
-	margin-right: 20px;
+	/*display: inline-block;*/
+	/*margin-right: 20px;*/
+	display: block;
+	float: left;
 }
 
 div.flat .main h2{
@@ -1321,8 +1326,9 @@ div.flat .main h2{
 	font-weight: 600;
 	color: white;
 	width: 225px;
-	display: inline-block;
-	margin: 0px 0px 65px 0px;
+	display: block;
+	float: left;
+	margin: 20px 0px 0px 0px;
 }
 
 div.flat .main .chev {
@@ -1330,16 +1336,23 @@ div.flat .main .chev {
 	color: white;
 	font-weight: 400;
 	padding-left: 24px;
-	display: inline;
 	float: right;
 	padding: 0px 0px 60px 0px;
+		display: block;
+	float: right;
 }
 
 div.kopce .start{
 	font-size: 6px;
 	color: #ccd0d9;
-	padding: 10px 4px 0px 207px;
+	padding: 10px 0px 0px 207px;
 	font-weight: bolder;
+}
+
+div.kopce i{
+	font-size: 6px;
+	color: #ccd0d9;;
+	padding-right: 4px;
 }
 
 div.kopce .fa-circle-thin{
@@ -1358,6 +1371,7 @@ div.happy{
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
 	margin: 10px;
+	display: inline-block;
 }
 
 div.happy .smile{
@@ -1409,6 +1423,7 @@ div.city{
 	color: white;
 	padding: 14px 0px 14px 0px;
 	background-color: #9fd468;
+	display: inline-block;
 }
 
 div.city h2{
@@ -1448,6 +1463,7 @@ div.city .green h4 {
 }
 
 div.cv{
+	display: inline-block;
 	width: 221px;
 	height: 321px;
 	box-sizing: border-box;
@@ -1490,6 +1506,7 @@ div.cv img{
 
 
 div.cv2{
+	display: inline-block;
 	width: 221px;
 	height: 321px;
 	box-sizing: border-box;
@@ -1499,7 +1516,6 @@ div.cv2{
  	border-radius: 5%;
  	margin: 10px;
  	padding: 20px 0px 25px 0px
- 	display: inline;
  }
 
 div.cv2 img{
@@ -1532,6 +1548,7 @@ div.cv2 img{
  }
 
  div.cv3{
+ 	display: inline-block;
 	width: 221px;
 	height: 321px;
 	box-sizing: border-box;
@@ -1541,7 +1558,6 @@ div.cv2 img{
  	border-radius: 5%;
  	margin: 10px;
  	padding: 20px 0px 25px 0px
- 	display: inline;
  	border-top: 5px solid #a0d468;
  }
 
@@ -1616,20 +1632,24 @@ div.mojito{
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 2px 5px #e3e4e8;
+    margin: 10px;
+    display: inline-block;
 }
-    div.mojito div.image{
+
+div.mojito div.image{
         width: 100%;
         height: 218px;
         background-image: url("../styles/mojito.png");
-    }
+}
 
-    div.mojito div.description{
+div.mojito div.description{
         width: 100%;
         height:126px ;
         /*margin-top:20px;*/
         /*margin-bottom:27px;*/
-    }
-    div.mojito div.description div.text{
+}
+
+div.mojito div.description div.text{
         width:250px ;
         /*height: 126px;*/
         border-right: 2px solid #eaedf2;
@@ -1638,23 +1658,27 @@ div.mojito{
         font-family: 'Open Sans', sans-serif;
         display: inline-block;
         float: left;
-    }
-        div.mojito div.description div.text h3{
+}
+
+div.mojito div.description div.text h3{
             color: #8c9099;
             margin-bottom: 10px;
-    }
-        div.mojito div.description div.text p{
+}
+
+div.mojito div.description div.text p{
             color: #cfd3de;
             font-size: 12px;
-    }
- div.mojito div.download{
+}
+
+div.mojito div.download{
         width:178px ;
         height: 126px;
         display: inline;
         float: right;
         margin-top: -119px;
-    }
-        div.mojito div.download button{
+}
+
+div.mojito div.download button{
             display: block;
             margin: 0 auto;
             margin-top: 20px;
@@ -1665,19 +1689,77 @@ div.mojito{
             height: 40px;
             width: 140px;
             border-radius:5px ;
-        }
-        div.mojito div.download table{
+}
+
+div.mojito div.download table{
             font-size: 12px;
             margin-left: 20px;
             margin-top:15px ;
-        }
-        div.mojito div.download table tr.first{
+}
+
+div.mojito div.download table tr.first{
             color:#acb2be;
-        }
-        div.mojito div.download table tr.second{
+}
+
+div.mojito div.download table tr.second{
             color:#737a84;
-        }
-            div.mojito div.download table td{
+}
+
+div.mojito div.download table td{
                 width: 50px;
-            }
+}
+
+div.web{
+	width: 460px;
+	height: 180px;
+	background-color: #fff;
+	display: inline-block;
+}
+div.web ul{
+	font-family: 'Lato', sans-serif;
+	background-color:#f6f7fb; 
+	list-style: none;
+	font-size: 14px;
+	padding: 0px 26px 0px 32px;
+
+
+}
+div.web ul li{
+	display: inline-block;
+	color: #b5bbc7;
+	margin-right: 25px;
+	padding-top: 15px;
+}
+
+div.web ul li.a{
+	border-top: 5px solid #9fd468;
+	border-radius:5px;
+    background-color: #fff;
+    color: #646e78;
+}
+
+div.web h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #c2c9d3;
+    margin: 20px 55px 25px 20px;
+
+}
+
+div.web h1 a{
+	color: #646c79;
+}
+
+div.web p{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	margin-right:20px;
+	color: #c2c9d3;
+	margin-left: 20px;
+}
+
+div.web p a{
+	color: #bce299;
+}           
 
