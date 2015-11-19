@@ -1,0 +1,251 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	width: 85%;
+	height: 1020px;
+	background-image: url(../images/slika.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 84px 214px 421px 214px;
+}
+
+#logo{
+	float: left;
+	display: inline-block;
+	width: 80px;
+	height: 80;
+
+}
+
+#menu{
+	float: right;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+}
+
+#linija{
+	margin-top: 500px;
+	width: 600px;
+	color: #99b4be;
+	border-color: #99b4be;
+	height: 3px;
+	border-style: solid;
+	background-color: #99b4be;
+}
+
+header hr{
+	width: 600px;
+	color: #99b4be;
+	border-color: #99b4be;
+	height: 3px;
+	border-style: solid;
+	background-color: #99b4be;
+}
+
+header h1{
+	font-family: 'Russo One', sans-serif;
+	font-size: 50px;
+	color: white;
+	font-weight: bolder;
+	letter-spacing: 17px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+header h2{
+	font-family: 'Armata', sans-serif;
+	font-size: 30px;
+	color: #99b4be;
+	letter-spacing: 1px;
+	word-spacing: 20px;
+	text-align: center;
+}
+
+div.splash{
+	height: 700px;
+	width: 1600px;
+	color: white;
+	padding: 128px 215px 0px 300px;
+}
+
+div.splash img{
+	width: 632px;
+	height: 684px;
+	display: inline;
+	float: left;
+	padding-right: 90px;
+}
+
+div.splash h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	color: #4c4c4c;
+	display: inline;
+	float: left;
+	width: 695px;
+	margin-bottom: 60px;
+}
+
+div.splash p{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #7c7c7c;
+	display: inline;
+	float: left;
+	width: 850px;
+	/*margin-right: 350px;*/
+}
+
+div.splash button{
+	height: 46px;
+	width: 202px;
+	background-color: #ff2b4a;
+	color: white;
+	font-size: 14px;
+	margin-right: 350px;
+	margin-top: 70px;
+
+}
+
+div.proccess{
+	width: 85%;
+	height: 665px;
+	background-color: #e5e5e5;
+	padding: 123px 215px 123px 215px;
+	margin: 0px;
+}
+
+div.proccess h1{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+div.proccess h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	color: #4c4c4c;
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+div.proccess .b1{
+	width: 282px;
+	height: 269px;
+	background-color: #10c6fc;
+	color: white;
+	display: inline;
+	float: left;
+	margin-right: 30px;
+	 margin-left: 520px;
+}
+
+div.proccess .b1 i{
+	font-size: 60px;
+	text-align: center;
+	padding-top: 80px;
+    padding-right: 105px;
+    padding-bottom: 45px;
+    padding-left: 100px;
+}
+
+div.proccess .b1 h3{
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+    padding-right: 100px;
+    padding-left: 80px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+div.proccess .b2{
+	width: 282px;
+	height: 269px;
+	background-color: #835aeb;
+	color: white;
+	display: inline;
+	float: left;
+	margin-right: 30px;
+}
+
+div.proccess .b2 i{
+	font-size: 60px;
+	text-align: center;
+	padding-top: 80px;
+    padding-right: 105px;
+    padding-bottom: 45px;
+    padding-left: 110px;
+}
+
+div.proccess .b2 h3{
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+    padding: 0px 100px 0px 35px;
+    margin: 0px;
+}
+
+div.proccess .b3{
+	width: 282px;
+	height: 269px;
+	background-color: #002453;
+	color: white;
+	display: inline;
+	float: left;
+	margin-right: 30px;
+}
+
+div.proccess .b3 i{
+	font-size: 60px;
+	text-align: center;
+	padding-top: 80px;
+    padding-right: 105px;
+    padding-bottom: 45px;
+    padding-left: 110px;
+}
+
+div.proccess .b3 h3{
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+    padding: 0px 100px 0px 80px;
+    margin: 0px;
+}
+
+div.proccess .b4{
+	width: 282px;
+	height: 269px;
+	background-color: #ff2b4a;
+	color: white;
+	display: inline;
+	float: left;
+	margin-right: 30px;
+}
+	
+div.proccess .b4 i{
+	font-size: 60px;
+	text-align: center;
+	padding-top: 80px;
+    padding-right: 105px;
+    padding-bottom: 45px;
+    padding-left: 110px;
+}
+
+div.proccess .b4 h3{
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+    padding: 0px 100px 0px 80px;
+    margin: 0px;
+}
